@@ -10,6 +10,8 @@ fn two_sums(test_array:  &[i64],num :i64) -> (){
                 if i+n==num {
                   println!("{:?}",[*i,*n]);
                     
+                }else{
+                    println!("nothing adds up")
                 }
             }
           
